@@ -594,3 +594,40 @@ a.skip {
 	position: absolute;
 	left: -9999px;
 }
+
+
+/* FORUM */
+.section {
+    margin: 15px 10px 15px 10px;
+    border: 1px solid #888;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    background-color: #e0e0ff;
+    border-bottom: 1px solid #888;
+}
+
+.topic {
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.topic a {
+    margin-right: 15px;
+}
+
+.topicDesc {
+    color: #888;
+}
+
+.rightInfo {
+    float: right;
+    color: #888;
+}
+
+.rightInfo b {
+    font-weight: normal;
+    color: #000;
+}

@@ -8,12 +8,18 @@
     <file path="/Dummy.txt" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421391285524" ignored="false" />
     <file path="/a.dummy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421391278599" ignored="false" />
     <file path="/fragment.java" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421391398656" ignored="false" />
-    <file path="/Section.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421391579325" ignored="false" />
-    <file path="/Topic.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421391648472" ignored="false" />
+    <file path="/Section.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421399298235" ignored="false" />
+    <file path="/Topic.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421404642517" ignored="false" />
     <file path="/Thread.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421397533653" ignored="false" />
     <file path="/Comment.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421398742759" ignored="false" />
-    <file path="/BootStrap.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421398945891" ignored="false" />
-    <file path="$PROJECT_DIR$/target/stacktrace.log" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421398653156" ignored="false" />
+    <file path="/BootStrap.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421404732217" ignored="false" />
+    <file path="$PROJECT_DIR$/target/stacktrace.log" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421399521170" ignored="false" />
+    <file path="/UrlMappings.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421399215508" ignored="false" />
+    <file path="/ForumController.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421405320017" ignored="false" />
+    <file path="/home.gsp" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421404960522" ignored="false" />
+    <file path="/main.css" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421405521312" ignored="false" />
+    <file path="/topic.gsp" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421405973101" ignored="false" />
+    <file path="/DiscussionThread.groovy" changelist="98a75ec6-6472-425c-9c79-09c048b051d5" time="1421405790174" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BootStrap.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="36" selection-start="416" selection-end="416" vertical-scroll-proportion="0.028239202">
+            <state line="44" column="63" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -85,10 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Comment.groovy">
+      <file leaf-file-name="ForumController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/asia/grails/forum/ForumController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="239" selection-end="239" vertical-scroll-proportion="-3.75">
+            <state line="9" column="40" selection-start="192" selection-end="192" vertical-scroll-proportion="-5.869565">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiscussionThread.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/DiscussionThread.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="278" selection-end="278" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -97,15 +112,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscussionThread.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/DiscussionThread.groovy">
+      <file leaf-file-name="topic.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/forum/topic.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="207" selection-end="207" vertical-scroll-proportion="-2.8125">
+            <state line="28" column="89" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-7.6595745">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="9" selection-start="86" selection-end="86" vertical-scroll-proportion="0.07475083">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/forum/home.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="-4.1489363">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="616" column="6" selection-start="11535" selection-end="11535" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -119,14 +158,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Section.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Topic.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Thread.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/DiscussionThread.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Comment.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Section.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Topic.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/asia/grails/forum/ForumController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/forum/home.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/main.css" />
+        <option value="$PROJECT_DIR$/grails-app/domain/asia/grails/forum/DiscussionThread.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/forum/topic.gsp" />
+        <option value="$PROJECT_DIR$/application.properties" />
       </list>
     </option>
   </component>
@@ -196,6 +241,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grails-app/views/forum" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="asia.grails.forum" />
     </key>
@@ -383,7 +431,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17609392" sideWeight="0.46195653" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -452,20 +500,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="43" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="28" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.81395346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/SecRole.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="33" selection-end="40" vertical-scroll-proportion="-0.625">
@@ -503,36 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Section.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="78" selection-end="78" vertical-scroll-proportion="-0.9375">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Topic.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="111" selection-end="171" vertical-scroll-proportion="-2.8125">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/DiscussionThread.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="207" selection-end="207" vertical-scroll-proportion="-2.8125">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java/grails-2.2.4/src/grails-bootstrap-2.2.4-sources.jar!/grails/util/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="307" column="0" selection-start="9382" selection-end="9382" vertical-scroll-proportion="0.33222592">
@@ -542,7 +546,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Comment.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="239" selection-end="239" vertical-scroll-proportion="-3.75">
+        <state line="12" column="27" selection-start="239" selection-end="239" vertical-scroll-proportion="0.2088167">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Section.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="65" selection-end="65" vertical-scroll-proportion="0.08122744">
           <folding />
         </state>
       </provider>
@@ -552,10 +566,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="416" selection-end="416" vertical-scroll-proportion="0.028239202">
+        <state line="44" column="63" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="167" selection-end="171" vertical-scroll-proportion="0.22425249">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/forum/home.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="-4.1489363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="616" column="6" selection-start="11535" selection-end="11535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/asia/grails/forum/ForumController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="192" selection-end="192" vertical-scroll-proportion="-5.869565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/Topic.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="229" selection-end="264" vertical-scroll-proportion="0.29783395">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/asia/grails/forum/DiscussionThread.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="278" selection-end="278" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/forum/topic.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="89" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-7.6595745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="86" selection-end="86" vertical-scroll-proportion="0.07475083">
+          <folding />
         </state>
       </provider>
     </entry>

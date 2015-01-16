@@ -25,23 +25,25 @@ class BootStrap {
         if ( Section.count() == 0 ) { // create data if no forum data found
             // get all users
             def users = SecUser.list()
-            // create 5 sections
-            ('A'..'E').each { sectionLetter ->
+            // create 3 sections
+            ('A'..'C').each { sectionLetter ->
                 def sectionTitle = "Section ${sectionLetter}"
                 def section = new Section(title: sectionTitle).save()
-                // create 5 topics per section
-                (1..5).each { topicNumber ->
-                    def topicTitle = "Topic ${sectionLetter} ${topicNumber}"
+                // create 4 topics per section
+                (1..4).each { topicNumber ->
+                    def topicTitle = "Topic ${sectionLetter}-${topicNumber}"
                     def topicDescription = "Description of ${topicTitle}"
                     def topic = new Topic(section: section, title: topicTitle, description: topicDescription).save()
-                    // create 15 threads each topic
-                    (1..15).each { threadNo ->
+                    // create 10-20 threads each topic
+                    def numberOfThreads = random.nextInt(11)+10
+                    (1..numberOfThreads).each { threadNo ->
                         def opener = users[random.nextInt(100)]
-                        def subject = "Subject ${sectionLetter} ${topicNumber} ${threadNo} "
+                        def subject = "Subject ${sectionLetter}-${topicNumber}-${threadNo} "
                         def thread = new DiscussionThread(topic:topic, subject:subject, opener:opener).save()
                         new Comment(thread:thread, commentBy:opener, body:generateRandomComment()).save()
-                        // create 25 replies per thread
-                        25.times {
+                        // create 10-35 replies per thread
+                        def numberOfReplies = random.nextInt(26)+10
+                        numberOfReplies.times {
                             def commentBy = users[random.nextInt(100)]
                             new Comment(thread:thread, commentBy:commentBy, body:generateRandomComment()).save()
                         }

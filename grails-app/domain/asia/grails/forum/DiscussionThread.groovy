@@ -9,6 +9,10 @@ class DiscussionThread {
     SecUser opener
     Date createDate = new Date()
 
+    public long getNumberOfReplies() {
+        Comment.countByThread(this)
+    }
+
     static constraints = {
     }
 }
