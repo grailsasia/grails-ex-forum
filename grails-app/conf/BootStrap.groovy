@@ -5,18 +5,23 @@ import asia.grails.forum.SecUser
 import asia.grails.forum.SecUserSecRole
 import asia.grails.forum.Section
 import asia.grails.forum.Topic
-import org.apache.commons.lang.RandomStringUtils
 
 class BootStrap {
     def random = new Random();
+    def words = ("time,person,year,way,day,thing,man,world,life,hand,part,child,eye,woman,place,work,week,case,point," +
+                "government,company,number,group,problem,fact,be,have,do,say,get,make,go,know,take,see,come,think,look," +
+                "want,give,use,find,tell,ask,work,seem,feel,try,leave,call,good,new,first,last,long,great,little,own," +
+                "other,old,right,big,high,different,small,large,next,early,young,important,few,public,bad,same,able,to,of," +
+                "in,for,on,with,at,by,from,up,about,into,over,after,beneath,under,above,the,and,a,that,I,it,not,he,as,you," +
+                "this,but,his,they,her,she,or,an,will,my,one,all,would,there,their").split(",")
 
     def init = { servletContext ->
         if (SecUser.count() == 0) {  // no user in db, lets create some
             def defaultRole = new SecRole(authority: 'ROLE_USER').save()
             // create 100 users
             (1..100).each { userNo ->
-                String username = RandomStringUtils.random(10, true, false)
-                def user = new SecUser(username:"user${userNo}", password: 'secret', enabled: true).save()
+                String username = "user${userNo}"
+                def user = new SecUser(username:username, password: 'secret', enabled: true).save()
                 // all users will have default role
                 new SecUserSecRole(	secUser:user, secRole: defaultRole).save()
             }
@@ -54,11 +59,10 @@ class BootStrap {
     }
 
     private String generateRandomComment() {
-        def numberOfWords = random.nextInt(15) + 10
+        def numberOfWords = random.nextInt(50) + 15
         StringBuilder sb = new StringBuilder()
         numberOfWords.times {
-            def numberOfChars = random.nextInt(15) + 2
-            def randomWord = RandomStringUtils.random(numberOfChars, true, false)
+            def randomWord = words[random.nextInt(words.length)]
             sb.append("${randomWord} ")
         }
         return sb.toString()

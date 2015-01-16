@@ -631,3 +631,13 @@ a.skip {
     font-weight: normal;
     color: #000;
 }
+
+.comment {
+    border: 1px solid #888;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+textarea {
+    width: 98%;
+}
